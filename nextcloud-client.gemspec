@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Nextcloud OCS and WebDAV API endpoints wrapper in Ruby for user provisioning, file and directory
                         management, sharing (including Federated Cloud Sharing), group and application operations."
   spec.homepage      = "https://github.com/baraidrissa/nextcloud-client"
+  spec.metadata["changelog_uri"] = "https://github.com/baraidrissa/nextcloud-client/blob/main/CHANGELOG.md"
   spec.license       = "MIT"
 
   spec.required_ruby_version = ">= 3.3.5"

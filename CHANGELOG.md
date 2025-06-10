@@ -1,4 +1,8 @@
 ## [unrelease]
+
+## [0.1.1] - 2025-05-10
+* CHANGELOG uri
+
 ## [0.1.0] - 2025-05-10
 * post install message
 
