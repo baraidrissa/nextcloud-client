@@ -14,6 +14,12 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.required_ruby_version = ">= 3.3.5"
+  spec.post_install_message = <<~MESSAGE
+    Ciao, thanks for installing `nextcloud_client`!
+
+    If you like it, don’t forget to leave a ⭐ on the repo or send a PR — contributions are welcome!
+  MESSAGE
+
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
